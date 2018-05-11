@@ -2,25 +2,11 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-/*
+
 .arrow {
   float: right;
 	padding-top: 1em;
   width: 8%;
-}
-*/
-.arrow {
-	display: inline-block;
-}
-.content {
-	display: inline-block;
-	width: 92%;
-	padding-left: 2em;
-}
-.location {
-  background-color: #eee;
-  border-bottom: 1px solid #000;
-  padding: 1em 0 1em 0;
 }
 
 body {
@@ -34,13 +20,11 @@ body {
   width: 420px;
 }
 
-/*
 .content {
 	float: left;
   width: 92%;
-  padding: 0 0 1.5em 2em;
+  padding: 0 0 1em 2em;
 }
-*/
 
 h1 {
   font-size: 1.5em;
@@ -52,7 +36,7 @@ h3 {
   font-size: 1.3em;
   line-height: 1.2em;
 }
-/*
+
 .location {
   background-color: #eee;
   border-bottom: 1px solid #000;
@@ -60,7 +44,7 @@ h3 {
 	float: left;
 	width: 100%;
 }
-*/
+
 .location:hover {
   background-color: #999;
 }
